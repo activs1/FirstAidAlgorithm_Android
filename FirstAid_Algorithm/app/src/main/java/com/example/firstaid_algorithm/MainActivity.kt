@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun startAlgorithm() {
         val questionIntent = Intent(this, QuestionActivity::class.java)
-        questionIntent.putExtra(INTENT_QUESTION_KEY, questions)
+        questionIntent.putExtra(INTENT_QUESTION_KEY, data_list)
         startActivity(questionIntent)
     }
 }
