@@ -4,7 +4,7 @@ class Information {
     private var InformationText: String? = null
     private var NextQuestionPointer: Int? = null
 
-    constructor(InformationText: String, NextQuestionPointer: Int){
+    constructor(InformationText: String, NextQuestionPointer: Int?){
         this.InformationText = InformationText
         this.NextQuestionPointer = NextQuestionPointer
     }
@@ -15,4 +15,5 @@ class Information {
 
     fun getNextQuestionPointer(): Int? {
         return NextQuestionPointer
+    }
 }

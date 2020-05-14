@@ -2,14 +2,14 @@ package com.example.firstaid_algorithm
 
 class Data {
     var questions = arrayOf(
-    "Czy jesteś bezpieczny?",
-    "Czy poszkodowany jest przytomny?",
-    "Czy widzisz poważny upływ krwi?",
-    "Czy sprawa jest poważna?",
-    "Czy poszkodowany oddycha?",
-    "Czy wiesz co się stało?",
-    "Czy oddech powrócił?",
-    "Czy podejrzewasz uszkodzenie kręgosłupa?"
+        "Czy jesteś bezpieczny?",
+        "Czy poszkodowany jest przytomny?",
+        "Czy widzisz poważny upływ krwi?",
+        "Czy sprawa jest poważna?",
+        "Czy poszkodowany oddycha?",
+        "Czy wiesz co się stało?",
+        "Czy oddech powrócił?",
+        "Czy podejrzewasz uszkodzenie kręgosłupa?"
     )
 
     var tips = arrayOf(
@@ -18,7 +18,7 @@ class Data {
         "Zatamuj krwotok i zbierz wywiad",
         "Zbierz wywiad",
         "Upewnij się, że poszkodowany jest zdrowy i poradzi sobie sam",
-        "Zadzwoń na 999 lub 112. ",
+        "Zadzwoń na 999 lub 112.",
         "Znajdź osobę do pomocy",
         "Zatamuj krwotok",
         "Oceń funkcje życiowe",
@@ -30,3 +30,4 @@ class Data {
         "Czekaj na przyjazd karetki"
     )
 }
+
