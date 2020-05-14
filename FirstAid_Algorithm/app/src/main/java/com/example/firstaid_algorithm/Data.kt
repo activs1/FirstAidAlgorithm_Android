@@ -15,26 +15,26 @@ class Data {
     )
 
     var tips: Array<String?> = arrayOf(
-        "Nie podchodź!",
-        "Załóż rękawiczki i zawołaj głośno poszkodowanego",
-        "Znajdź osobę do pomocy i zadzwoń na 999",
+        "Nie podchodź! Wezwij służby, które usuną niebezpieczeństwo.",
+        "Zawołaj głośno poszkodowanego lub potrząśnij za ramiona, aby sprawdzić czy poszkodowany jest przytomny.",
+        "Znajdź osobę do pomocy i poproś o zadzwonienie na 999 lub sam wezwij służby",
         null,
-        "Zbierz wywiad",
-        "Zatamuj krwotok i zbierz wywiad",
+        "Zbierz wywiad, zapytaj poszkodowanego co się stało, czy jest na coś chory i jak możesz mu pomóc.",
+        "Zatamuj krwotok. Następnie zbierz wywiad, zapytaj poszkodowanego co się stało, czy jest na coś chory i jak możesz mu pomóc.",
         "Upewnij się, że poszkodowany jest zdrowy i poradzi sobie sam!",
-        "Tel 999! Nie pozostawiaj poszkodowanego samego. Czekaj na karetkę",
-        "Ocena funkcji życiowych",
-        "Zatamuj krwotok i oceń funkcje życiowe",
-        "Resuscytacja !!! ",
+        "Zadzwoń na 999! Ustaw poszkodowanego w pozycji półsiedzącej i czekaj z nim na przyjazd karetki.",
+        "Oceń funkcje życiowe. Odchyl głowę do tyłu i sprawdź oddech poszkodowanego.",
+        "Zatamuj krwotok. Następnie oceń funkcje życiowe. Odchyl głowę do tyłu i sprawdź oddech poszkodowanego.",
+        "Natychmiastowa resuscytacja!!! Wykonaj sekwencje 30 uciśnięć i 2 wdechów lub użyj urządzenia AED jeśli jest w pobliżu. ",
         null,
-        "Resuscytacja!!!",
-        "Zbadaj poszkodowanego i sprawdzaj oddech",
-        "Pozycja czterokończynowa i zbierz wywiad",
-        "Pozycja bezpieczna",
-        "Zbadaj poszkodowanego poszukaj obrażeń",
-        "Pozycja bezpieczna, sprawdzaj oddech, nie zostawiaj poszkodowanego.",
-        "Nie ruszaj poszkodowanego i poczekaj na przyjazd karetki",
+        "Natychmiastowa resuscytacja!!! Wykonaj sekwencje 30 uciśnięć i 2 wdechów lub użyj urządzenia AED jeśli jest w pobliżu.",
+        "Zbadaj poszkodowanego, unieruchom/opatrz potencjalne urazy. Co 1 minutę sprawdzaj oddech!",
+        "Ustaw poszkodowanego w pozycji czterokończynowej, po odzyskaniu przytomności zbierz wywiad i sprawdzaj oddech.",
+        "Pozycja bezpieczna, boczna ustalona. Co 1 minutę sprawdzaj oddech!",
+        "Zbadaj poszkodowanego, unieruchom/opatrz potencjalne urazy. Co 1 minutę sprawdzaj oddech!",
+        "Pozycja bezpieczna, sprawdzaj oddech, nie zostawiaj poszkodowanego. Czekaj na przyjazd karetki",
+        "Nie ruszaj poszkodowanego i poczekaj na przyjazd karetki. Co 1 minutę sprawdzaj oddech poszkodowanego!",
         "upewnij się, że poszkodowany jest zdrowy i poradzi sobie sam",
-        "Nie pozostawiaj poszkodowanego samego, czekaj na przyjazd karetki"
+        "Nie pozostawiaj poszkodowanego samego, poczekaj na przyjazd karetki"
     )
 }
