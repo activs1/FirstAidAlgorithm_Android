@@ -6,27 +6,35 @@ class Data {
     "Czy poszkodowany jest przytomny?",
     "Czy widzisz poważny upływ krwi?",
     "Czy sprawa jest poważna?",
+    "Czy widzisz poważny upływ krwi?",
     "Czy poszkodowany oddycha?",
-    "Czy wiesz co się stało?",
     "Czy oddech powrócił?",
-    "Czy podejrzewasz uszkodzenie kręgosłupa?"
+    "Czy wiesz co się stało?",
+    "Czy podejrzewasz uszkodzenie kręgosłupa?",
+    "Czy sprawa poważna, masz wątpliwości?"
     )
 
-    var tips = arrayOf(
+    var tips: Array<String?> = arrayOf(
         "Nie podchodź!",
         "Załóż rękawiczki i zawołaj głośno poszkodowanego",
-        "Zatamuj krwotok i zbierz wywiad",
+        "Znajdź osobę do pomocy i zadzwoń na 999",
+        null,
         "Zbierz wywiad",
-        "Upewnij się, że poszkodowany jest zdrowy i poradzi sobie sam",
-        "Zadzwoń na 999 lub 112. ",
-        "Znajdź osobę do pomocy",
-        "Zatamuj krwotok",
-        "Oceń funkcje życiowe",
-        "Natychmiastowa resuscytacja!!!",
-        "Pozycja czterokończynowa",
-        "Zbadaj poszkodowanego, poszukaj obrażeń i sprawdzaj oddech",
-        "Pozycja bezpieczna (boczna ustalona), sprawdzaj oddech",
-        "Pozycja zastana, sprawdzaj oddech",
-        "Czekaj na przyjazd karetki"
+        "Zatamuj krwotok i zbierz wywiad",
+        "Upewnij się, że poszkodowany jest zdrowy i poradzi sobie sam!",
+        "Tel 999! Nie pozostawiaj poszkodowanego samego. Czekaj na karetkę",
+        "Ocena funkcji życiowych",
+        "Zatamuj krwotok i oceń funkcje życiowe",
+        "Resuscytacja !!! ",
+        null,
+        "Resuscytacja!!!",
+        "Zbadaj poszkodowanego i sprawdzaj oddech",
+        "Pozycja czterokończynowa i zbierz wywiad",
+        "Pozycja bezpieczna",
+        "Zbadaj poszkodowanego poszukaj obrażeń",
+        "Pozycja bezpieczna, sprawdzaj oddech, nie zostawiaj poszkodowanego.",
+        "Nie ruszaj poszkodowanego i poczekaj na przyjazd karetki",
+        "upewnij się, że poszkodowany jest zdrowy i poradzi sobie sam",
+        "Nie pozostawiaj poszkodowanego samego, czekaj na przyjazd karetki"
     )
 }
