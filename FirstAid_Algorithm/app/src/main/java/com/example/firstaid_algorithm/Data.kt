@@ -38,6 +38,10 @@ class Data {
         "Nie pozostawiaj poszkodowanego samego, poczekaj na przyjazd karetki"
     )
 
+    var img = arrayOf(
+            R.drawable.z1, R.drawable.z2, R.drawable.z3, R.drawable.z3, R.drawable.z15, R.drawable.z16, R.drawable.z17, R.drawable.z8, R.drawable.z9, R.drawable.z10, R.drawable.z11, R.drawable.z2, R.drawable.z13, R.drawable.z14, R.drawable.z15, R.drawable.z16, R.drawable.z17, R.drawable.z18, R.drawable.z18
+    )
+
     fun createQuestionsArrays(): ArrayList<Question> {
         val data_questions = this.questions
         val questions = arrayListOf<Question>()
@@ -88,4 +92,5 @@ class Data {
 
         return infos
     }
+
 }
