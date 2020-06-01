@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         questions = createQuestionsArrays()
-        infos = createInfosArray()
+     //   infos = createInfosArray()
 
 
         startButton = findViewById(R.id.startButton)
@@ -65,7 +65,7 @@ class MainActivity : AppCompatActivity() {
 
         return questions
     }
-
+/*
     private fun createInfosArray(): ArrayList<Information> {
         val data_ = Data()
         //val data_questions = data_.questions
@@ -96,5 +96,5 @@ class MainActivity : AppCompatActivity() {
         //infos.add(Information(data_info[20], 1))
         //infos.add(Information(data_info[20], 1))
         return infos
-    }
+    }*/
 }

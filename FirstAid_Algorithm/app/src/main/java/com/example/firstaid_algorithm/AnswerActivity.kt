@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
 
@@ -11,11 +12,14 @@ class AnswerActivity : AppCompatActivity() {
 
     lateinit var infoTextView: TextView
     lateinit var continueButton: Button
+    lateinit var pictureimageView: ImageView
 
     val data_ = Data()
     val questions = data_.createQuestionsArrays()
     val infos = data_.createInfosArray()
     var index: Int = 0
+    var pic: Int = 0
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -23,6 +27,8 @@ class AnswerActivity : AppCompatActivity() {
 
         infoTextView = findViewById(R.id.info_textView)
         continueButton = findViewById(R.id.continue_button)
+        pictureimageView = findViewById(R.id.picture_imageView)
+
         continueButton.setOnClickListener {
             showNextQuestion()
         }
@@ -34,6 +40,14 @@ class AnswerActivity : AppCompatActivity() {
 
         infoTextView.setText(infos[index].getInformationText())
 
+        if(infos[index].getPictureName() == null){
+            pictureimageView.setImageResource(R.drawable.z3)
+        }
+
+        else{
+            pic = infos[index].getPictureName()!!
+            pictureimageView.setImageResource(pic)
+        }
     }
 
     private fun showNextQuestion() {

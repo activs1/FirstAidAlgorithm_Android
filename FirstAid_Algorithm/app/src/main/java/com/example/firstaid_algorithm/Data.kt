@@ -65,30 +65,32 @@ class Data {
     fun createInfosArray(): ArrayList<Information> {
         val data_info: Array<String?> = this.tips
         val infos = arrayListOf<Information>()
-        infos.add(Information(data_info[0], null))
-        infos.add(Information(data_info[1], 1))
-        infos.add(Information(data_info[2], 4))
-        infos.add(Information(data_info[3], 2))
-        infos.add(Information(data_info[4], 3))
-        infos.add(Information(data_info[5], 3))
-        infos.add(Information(data_info[6], null))
-        infos.add(Information(data_info[7], null))
+        val images: Array<Int> = this.img
 
-        infos.add(Information(data_info[8], 5))
-        infos.add(Information(data_info[9], 5))
-        infos.add(Information(data_info[10], 6))
+        infos.add(Information(data_info[0], null, images[0]))
+        infos.add(Information(data_info[1], 1,images[1]))
+        infos.add(Information(data_info[2], 4,images[2]))
+        infos.add(Information(data_info[3], 2,null))
+        infos.add(Information(data_info[4], 3, null))
+        infos.add(Information(data_info[5], 3, null))
+        infos.add(Information(data_info[6], null, null))
+        infos.add(Information(data_info[7], null, images[3]))
 
-        infos.add(Information(data_info[11], 7))
+        infos.add(Information(data_info[8], 5, images[4]))
+        infos.add(Information(data_info[9], 5, images[5]))
+        infos.add(Information(data_info[10], 6,images[6]))
 
-        infos.add(Information(data_info[12], 6))
-        infos.add(Information(data_info[13], 8))
-        infos.add(Information(data_info[14], 9))
-        infos.add(Information(data_info[15], null))
-        infos.add(Information(data_info[16], 8))
-        infos.add(Information(data_info[17], null))
-        infos.add(Information(data_info[18], null))
-        infos.add(Information(data_info[19], null))
-        infos.add(Information(data_info[20], null))
+        infos.add(Information(data_info[11], 7,null))
+
+        infos.add(Information(data_info[12], 6,images[7]))
+        infos.add(Information(data_info[13], 8,images[8]))
+        infos.add(Information(data_info[14], 9,images[9]))
+        infos.add(Information(data_info[15], null,images[10]))
+        infos.add(Information(data_info[16], 8,images[11]))
+        infos.add(Information(data_info[17], null,images[12]))
+        infos.add(Information(data_info[18], null,null))
+        infos.add(Information(data_info[19], null,null))
+        infos.add(Information(data_info[20], null,images[13]))
 
         return infos
     }
