@@ -17,12 +17,12 @@ class Data {
     var tips: Array<String?> = arrayOf(
         "Nie podchodź! Wezwij służby, które usuną niebezpieczeństwo.",
         "Zawołaj głośno poszkodowanego lub potrząśnij za ramiona, aby sprawdzić czy poszkodowany jest przytomny.",
-        "Znajdź osobę do pomocy i poproś o zadzwonienie na 999 lub sam wezwij służby",
+        "Znajdź osobę do pomocy i poproś o zadzwonienie na 999 lub sam wezwij służby", //2 call
         null,
         "Zbierz wywiad, zapytaj poszkodowanego co się stało, czy jest na coś chory i jak możesz mu pomóc.",
         "Zatamuj krwotok. Następnie zbierz wywiad, zapytaj poszkodowanego co się stało, czy jest na coś chory i jak możesz mu pomóc.",
         "Upewnij się, że poszkodowany jest zdrowy i poradzi sobie sam!",
-        "Zadzwoń na 999! Ustaw poszkodowanego w pozycji półsiedzącej i czekaj z nim na przyjazd karetki.",
+        "Zadzwoń na 999! Ustaw poszkodowanego w pozycji półsiedzącej i czekaj z nim na przyjazd karetki.", //7 call
         "Oceń funkcje życiowe. Odchyl głowę do tyłu i sprawdź oddech poszkodowanego.",
         "Zatamuj krwotok. Następnie oceń funkcje życiowe. Odchyl głowę do tyłu i sprawdź oddech poszkodowanego.",
         "Wykonaj natychmiastową resuscytację! Wykonaj sekwencje 30 uciśnięć i 2 wdechów lub użyj urządzenia AED jeśli jest w pobliżu. ",
@@ -34,7 +34,7 @@ class Data {
         "Zbadaj poszkodowanego, unieruchom/opatrz potencjalne urazy. Co 1 minutę sprawdzaj oddech!",
         "Pozycja bezpieczna, sprawdzaj oddech, nie zostawiaj poszkodowanego. Czekaj na przyjazd karetki",
         "Nie ruszaj poszkodowanego i poczekaj na przyjazd karetki. Co 1 minutę sprawdzaj oddech poszkodowanego!",
-        "upewnij się, że poszkodowany jest zdrowy i poradzi sobie sam",
+        "Upewnij się, że poszkodowany jest zdrowy i poradzi sobie sam",
         "Nie pozostawiaj poszkodowanego samego, poczekaj na przyjazd karetki"
     )
 
