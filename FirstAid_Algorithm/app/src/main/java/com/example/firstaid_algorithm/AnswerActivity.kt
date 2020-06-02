@@ -81,7 +81,7 @@ class AnswerActivity : AppCompatActivity() {
     }
 
     private fun callAmbulance() {
-        val number: Int = 515866717
+        val number: Int = 111111111
         intent = Intent(Intent.ACTION_DIAL, Uri.parse("tel:$number"))
         startActivity(intent)
     }
