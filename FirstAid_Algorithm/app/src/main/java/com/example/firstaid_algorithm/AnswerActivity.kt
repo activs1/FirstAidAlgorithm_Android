@@ -44,7 +44,7 @@ class AnswerActivity : AppCompatActivity() {
         infoTextView.setText(infos[index].getInformationText())
 
         if(infos[index].getPictureName() == null){
-            pictureimageView.setImageResource(R.drawable.z3)
+            pictureimageView.setImageResource(R.drawable.z0)
         }
 
         else{
