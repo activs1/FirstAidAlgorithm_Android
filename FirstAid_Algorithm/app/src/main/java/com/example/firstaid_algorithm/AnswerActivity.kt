@@ -67,13 +67,11 @@ class AnswerActivity : AppCompatActivity() {
             startActivity(mainActivityIntent)
         }
         else if(questions[infos[index].getNextQuestionPointer()!!].getPointerOption3() == null) {
-            println("HELLO")
             val questionIntent = Intent(this, QuestionActivity::class.java)
             questionIntent.putExtra(MainActivity.INTENT_QUESTION_KEY, infos[index].getNextQuestionPointer())
             startActivity(questionIntent)
         }
         else if(questions[infos[index].getNextQuestionPointer()!!].getPointerOption3() != null) {
-            println("Im here")
             val questionThreeOptionsIntent = Intent(this, QuestionThreeOptionsActivity::class.java)
             questionThreeOptionsIntent.putExtra(MainActivity.INTENT_QUESTION_KEY, infos[index].getNextQuestionPointer())
             startActivity(questionThreeOptionsIntent)
